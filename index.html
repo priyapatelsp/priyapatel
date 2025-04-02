@@ -1,241 +1,717 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="style.css">
-  <title>Priya Patel</title>
-  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Priya Patel Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/image/icon.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
 </head>
 <body>
+    <main>
+        <aside class="sidebar " data-sidebar>
+            <div class="sidebar-info">
+                <figure class="avatar-box">
+                    <img src="image/image.jpeg" alt="avatar" width="80" style="border-radius: 20px;">
+                </figure>
 
-  <!-- Hero Section -->
-  <section id="hero">
-  
-    <img class="profile-img" src="image/image.jpeg" alt="Priya Patel" style="width:300px;height:290px;border-radius:50%;overflow:hidden;">
-    <h2>Priya Patel</h2>
-    <br>
-    <p>Hello 👋, I'm a software engineer who loves turning lines of code into powerful applications.</p>
-    <br>
-    <section style="padding-bottom: 1rem">
-    <a href="https://github.com/priyapatelsp">
-        <i class="fa fa-github" style="font-size:36px"></i>
-    </a>
-    <a href="https://www.linkedin.com/in/priyapatelsp/">
-        <i class="fa fa-linkedin-square" style="font-size:36px"></i>
-    </a>
-</section>
-  </section>
+                <div class="info-content">
+                    <h1 class="name" title="Priya Patel">Priya Patel</h1>
+                    <p class="title">Software Developer</p>
+                </div>
+
+                <button class="info-more-btn" data-sidebar-btn>
+                    <span>Show Contacts</span>
+                    <ion-icon name="chevron-down"></ion-icon>
+                </button>
+            </div>
+
+            <div class="sidebar-info-more">
+                <div class="separator"></div>
+
+                <ul class="contacts-list">
+                    <li class="contact-item">
+                    
+                        <div class="contact-info">
+                            <p class="contact-title">Email</p>
+                            <a href="mailto:priyapatelsp3012@gmail.com" class="contact-link">priyapatelsp3012@gmail.com</a>
+                        </div>
+                    </li>
+
+                    <li class="contact-item">
+
+                        <div class="contact-info">
+                            <p class="contact-title">LinkedIn</p>
+
+                            <a href="https://www.linkedin.com/in/priyapatelsp/" class="contact-link">priyapatelsp</a>
+                        </div>
+                    </li>
+
+                    <li class="contact-item">
+                     
+                        <div class="contact-info">
+                            <p class="contact-title">Github</p>
+
+                            <a href="https://github.com/priyapatelsp/" class="contact-link">priyapatelsp </a>
+                        </div>
+                    </li>
+
+                    <li class="contact-item">
+                      
+                        <div class="contact-info">
+                            <p class="contact-title">Resume Link</p>
+
+                            <a href="https://docs.google.com/document/d/1uYvbDYnDYsv6P89StpIfM4Od8-MVJ8t5-s_7z6Hlze4/edit?usp=sharing" class="contact-link">Priya Patel resume</a>
+                        </div>
+                    </li>
+                </ul>
+
+                <div class="separator"></div>
+
+                <ul class="social-list">
+                    <li class="social-item"><a href="#" class="social-link"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                    <li class="social-item"><a href="#" class="social-link"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                    <li class="social-item"><a href="#" class="social-link"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                </ul>
+            </div>
+        </aside>
+
+        <div class="main-content">
+            <nav class="navbar">
+                <ul class="navbar-list">
+                    <li class="navbar-item"><button class="navbar-link active" data-nav-link>About</button></li>
+                    <li class="navbar-item"><button class="navbar-link" data-nav-link>Resume</button></li>
+                    <li class="navbar-item"><button class="navbar-link" data-nav-link>Project</button></li>
+                    <li class="navbar-item"><button class="navbar-link" data-nav-link>Contact</button></li>
+                </ul>
+            </nav>
+
+            <article class="about active" data-page="about">
+                <header>
+                    <h2 class="h2 article-title">About me</h2>
+                </header>
+
+                <section class="about-text">
+                    <p>In the fast-paced world of software, speed and scalability aren't luxuries—they're necessities.</p>
+                    <p> Two Years of Crafting High-Impact Software Solutions. My journey as a Software Engineer has been defined by delivering scalable, high-performance systems that drive tangible results.</p>
+                    <p> My passion is rooted in the art of continuous learning and the pursuit of elegant, impactful systems. I believe in the power of code to create beautiful, functional realities. Let's weave your next digital masterpiece together.</p>
+                </section>
+
+                <section class="service">
+                    <h3 class="h3 service-title"></h3>
+
+                    <ul class="service-list">
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="https://i.postimg.cc/4389jZkP/icon-design.png" alt="icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Software Engineer at Walmart</h4>
+                                <p class="service-item-text">Contributed almost two years of software expertise to Walmart Global Tech.</p>
+                            </div>
+                        </li>
+
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="https://i.postimg.cc/ZqgqrqzG/icon-dev.png" alt="icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Professional Certifications</h4>
+                                <p class="service-item-text">Driving innovation with certified AWS AI & Cloud, and Oracle Java skills.</p>
+                            </div>
+                        </li>
+
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="https://i.postimg.cc/ZqgqrqzG/icon-dev.png" alt="icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Projects</h4>
+                                <p class="service-item-text">Professional development of applications, encompassing both front-end and back-end solutions</p>
+                            </div>
+                        </li>
+
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="https://i.postimg.cc/4389jZkP/icon-design.png" alt="icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Education</h4>
+                                <p class="service-item-text">Computer Science graduate, demonstrating a strong academic background.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="service">
+                    <h3 class="h3 service-title">Skills</h3>
+                    <br>
+                    <br>
+
+                    <ul class="service-list has-scrollbar">
+                        <li class="testimonials-item">
+                            <div class="content-card" data-testimonials-item>
+                                <figure class="testimonials-avatar-box">
+                                    <img src="image/ux.png" alt="avatar" data-testimonials-avatar width="40">
+                                </figure>
+
+                                <h4 class="h4 testimonials-item-title" data-testimonials-title>framework & tools</h4>
+
+                                <div class="testimonials-text" data-testimonials-text>
+                                    <p>Spring Boot,  Node.js,  Express,  React,  Kafka,  Docker,  AWS , Django,  Pandas
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="testimonials-item">
+                            <div class="content-card" data-testimonials-item>
+                                <figure class="testimonials-avatar-box">
+                                    <img src="image/code.png" alt="avatar" data-testimonials-avatar width="40">
+                                </figure>
+
+                                <h4 class="h4 testimonials-item-title" data-testimonials-title>Programming languages</h4>
+
+                                <div class="testimonials-text" data-testimonials-text>
+                                    <p>C, C++, Java, Python, JavaScript, SQL
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="testimonials-item">
+                            <div class="content-card" data-testimonials-item>
+                                <figure class="testimonials-avatar-box">
+                                    <img src="image/db.png" alt="avatar" data-testimonials-avatar width="40">
+                                </figure>
+
+                                <h4 class="h4 testimonials-item-title" data-testimonials-title>Databases</h4>
+
+                                <div class="testimonials-text" data-testimonials-text>
+                                    <p>MySQL, MongoDB, Cassandra, PostgreSQL</p>
+                                </div>
+                            </div>
+                        </li>
+                        
+                        <li class="testimonials-item">
+                            <div class="content-card" data-testimonials-item>
+                                <figure class="testimonials-avatar-box">
+                                    <img src="image/os.png" alt="avatar" data-testimonials-avatar width="40">
+                                </figure>
+
+                                <h4 class="h4 testimonials-item-title" data-testimonials-title>Fundamentals</h4>
+
+                                <div class="testimonials-text" data-testimonials-text>
+                                    <p>Data Structures and Algorithms, Object-Oriented Programming (OOP), DBMS, Operating Systems
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="testimonials-item">
+                          <div class="content-card" data-testimonials-item>
+                              <figure class="testimonials-avatar-box">
+                                  <img src="image/tool.png" alt="avatar" data-testimonials-avatar width="40">
+                              </figure>
+
+                              <h4 class="h4 testimonials-item-title" data-testimonials-title>Tools</h4>
+
+                              <div class="testimonials-text" data-testimonials-text>
+                                  <p>Git/GitHub, Grafana, Jira, Postman
+                                  </p>
+                              </div>
+                          </div>
+                      </li>
+                    </ul>
+                </section>
+
+                <div class="modal-container " data-modal-container>
+                    <div class="overlay " data-overlay></div>
+
+                    <section class="testimonials-modal">
+                        <button class="modal-close-btn" data-modal-close-btn><ion-icon name="close-outline"></ion-icon></button>
+
+                        <div class="modal-img-wrapper">
+                            <figure class="modal-avatar-box">
+                                <img src="https://i.postimg.cc/zGDHfn3G/avatar-1.png" alt="Skills" width="80" data-modal-img>
+                            </figure>
+
+                        </div>
+
+                        <div class="modal-content">
+                            <h4 class="h3 modal-title" data-modal-title>Skills</h4>
+                            <time datetime="2023-06-14"></time>
+
+                            <div class="modal-text" data-modal-text>
+                                <p></p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <section class="clients">
+                    <h3 class="h3 clients-title">Awards & Certifications</h3>
+
+                    <ul class="clients-list has-scrollbar">
+                      
+                        <li class="clients-item">
+                            <a href="#"><img src="image/bravo_walmart.png" alt="logo"></a>
+                        </li>
+
+                        <li class="clients-item">
+                            <a href="#"><img src="image/excel_walmart.png" alt="logo"></a>
+                        </li>
+
+                        <li class="clients-item">
+                            <a href="#"><img src="image/aws_ai_practioner.png" alt="logo"></a>
+                        </li>
+
+                        <li class="clients-item">
+                            <a href="#"><img src="image/aws_cp.png" alt="logo"></a>
+                        </li>
+                        <li class="clients-item">
+                          <a href="#"><img src="image/java.webp" alt="logo"></a>
+                      </li>
+                    </ul>
+                </section>
+
+            </article>
+            
+            <article class="resume " data-page="resume">
+                <header>
+                    <h2 class="h2 article-title">Resume</h2>
+                </header>
+                
+                <section class="timeline">
+                  <div class="title-wrapper">
+                     <img src="image/wlmrt.png" alt="quote icon"  width="40">
+
+                      <h3 class="h3">Experience</h3>
+                  </div>
+
+                  <ol class="timeline-list">
+                    <h4 class="h4 timeline-item-title">Software Engineer II </h4>
+                    <span>Walmart Global technology</span>
+                    <span>2022 - 2024</span>
+                    <br>
+                 
+                      <li class="timeline-item">
+                          
+                          
+                          <p class="timeline-text"> <span>🚀 Engineered Scalable, High-Performance Microservices</span> Driving impactful solutions at Walmart using Java, Python, Kafka, and Spring Boot.</p>
+                      </li>
+
+                      <li class="timeline-item">
+                          <p class="timeline-text"> <span>💡 Passionate about Innovation</span>I create and develop visual concepts that align with the project's goals and objectives, supervising the design process and managing timelines and budgets for design projects.</p>
+                      </li>
+
+                      <li class="timeline-item">
+                          <p class="timeline-text"><span>💻 Proficient in Agile Development</span> Collaborating effectively within Agile teams to deliver customer-centric solutions.</p>
+                      </li>
+                      <li class="timeline-item">
+                        <p class="timeline-text"><span>📚 Committed to Continuous Learning </span>Staying ahead of the curve with a dedication to ongoing professional development.</p>
+                    </li>
+                    <li class="timeline-item">
+                      <p class="timeline-text"><span>💻 Proficient in Agile Development</span> Collaborating effectively within Agile teams to deliver customer-centric solutions.</p>
+                  </li>
+                  <li class="timeline-item">
+                    <p class="timeline-text"><span>🤝 Ready to Build the Future </span> Seeking opportunities to collaborate and create cutting-edge technology.</p>
+                </li>
+                  </ol>
+              </section>
+
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <img src="image/cup.png" alt="quote icon"  width="40">
+
+                        <h3 class="h3">Education</h3>
+                    </div>
+
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Jabalpur Engineer College </h4>
+                            <span>Bachelors of  Technology ( Computer Science )    </span>
+                            <span>2018 - 2022</span>
+                            <p class="timeline-text">Relevant Coursework : Object Oriented Programming, Data Structure & Algorithms, Operating Systems, DBMS, Computer Networks</p>
+                        </li>
+
+                    </ol>
+                </section>
+
+                
+
+                <!-- <section class="skill">
+                    <h3 class="h3 skills-title">My Skills</h3>
+
+                    <ul class="skills-list content-card">
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Web Design</h5>
+                                <data value="80">80%</data>
+                            </div>
+
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 80%;"></div>
+                            </div>
+                        </li>
+
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Graphic Design</h5>
+                                <data value="70">70%</data>
+                            </div>
+
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 70%;"></div>
+                            </div>
+                        </li>
+
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Branding</h5>
+                                <data value="90">90%</data>
+                            </div>
+
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 90%;"></div>
+                            </div>
+                        </li>
+
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">WordPress</h5>
+                                <data value="50">50%</data>
+                            </div>
+
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 50%;"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </section> -->
+            </article>
+
+            <article class="portfolio " data-page="">
+                <header>
+                    <h2 class="h2 article-title">Portfolio</h2>
+                </header>
+
+                <section class="projects">
+                    <ul class="filter-list">
+                        <li class="filter-item"><button class="active" data-filter-btn>All</button></li>
+                        <li class="filter-item"><button data-filter-btn>Web Design</button></li>
+                        <li class="filter-item"><button data-filter-btn>Applications</button></li>
+                        <li class="filter-item"><button data-filter-btn>Web Development</button></li>
+                    </ul>
+
+                    <div class="filter-select-box">
+                        <button class="filter-select " data-select>
+                            <div class="select-value" data-select-value>Select Category</div>
+
+                            <div class="select-icon">
+                                <ion-icon name="chevron-down"></ion-icon>
+                            </div>
+                        </button>
+
+                        <ul class="select-list">
+                            <li class="select-item"><button data-select-item>All</button></li>
+                            <li class="select-item"><button data-select-item>Web Design</button></li>
+                            <li class="select-item"><button data-select-item>Applications</button></li>
+                            <li class="select-item"><button data-select-item>Web Development</button></li>
+                        </ul>
+                    </div>
+
+                    <ul class="project-list">
+                        <li class="project-item active" data-filter-item data-category="web development">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="https://i.postimg.cc/qRHpHMyd/project-1.jpg" alt="finance" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Finance</h3>
+                                <p class="project-category">Web Development</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="web development">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="https://i.postimg.cc/bNrcM2Wt/project-2.png" alt="orizon" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Orizon</h3>
+                                <p class="project-category">Web Development</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="web design">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="https://i.postimg.cc/jSJVqYsq/project-3.jpg" alt="fundo" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Fundo</h3>
+                                <p class="project-category">Web Design</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="applications">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="https://i.postimg.cc/dtpXxNGb/project-4.png" alt="brawlhalla" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Brawlhalla</h3>
+                                <p class="project-category">Applications</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="web design">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="https://i.postimg.cc/43T0JKLw/project-5.png" alt="dsm." loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">DSM.</h3>
+                                <p class="project-category">Web Design</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="web design">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="https://i.postimg.cc/qR1DX1kZ/project-6.png" alt="metaspark" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Metaspark</h3>
+                                <p class="project-category">Web Design</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="web development">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="https://i.postimg.cc/Kj4q9tjc/project-7.png" alt="summary" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Summary</h3>
+                                <p class="project-category">Web Development</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="applications">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="https://i.postimg.cc/rw2j4B1w/project-8.jpg" alt="task manager" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Task Manager</h3>
+                                <p class="project-category">Applications</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="web development">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="https://i.postimg.cc/7LxNsSQv/project-9.png" alt="arrival" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Arrival</h3>
+                                <p class="project-category">Web Development</p>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+            </article>
+
+            <article class="blog " data-page="project">
+                <header>
+                    <h2 class="h2 article-title">Projects</h2>
+                </header>
+
+                <section class="blog-posts">
+                    <ul class="blog-posts-list">
+                        <li class="blog-post-item">
+                            <a href="#">
+                                    <figure class="blog-banner-box">
+                                        <img src="image/careerBuddy.png" alt="Career Buddy" loading="lazy">
+                                    </figure>
+
+                                <div class="blog-content">
+                                   
+                                    <h3 class="h3 blog-item-title"><a href="https://github.com/priyapatelsp/Career_Buddy"> Carrer Buddy 🔗</a></h3>
+                                    <p class="blog-text">
+                                      <b>🪄 Email Generation Magic :</b>  Instantly create tailored cold emails.<br>
+                                      <b>🎯 Skill Match Sniper :</b>  Match your skills to job requirements.🥇<br>
+                                      <b>📖 Know Your Strength : </b> Discover your resume’s hidden gems<br>
+                                      <b>❓FAQ :</b>  Prepare for common interview questions. 🧠<br></p>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="blog-post-item">
+                            <a href="#">
+                                <figure class="blog-banner-box">
+                                    <img src="image/linkedInCaurausel.png" alt="linkedInCaurausel" loading="lazy">
+                                </figure>
 
 
-  <!-- Portfolio Section -->
-  <section id="workEx">
-    <h2> Experience</h2>
-    <div class="workEx-container">
-      <div class="work">
-        <div class="work-header">
-          <h3> WALMART GLOBAL TECH </h3>
-          <img src="image/walmart.webp"style="width:40px;height:40px;border-radius:10%;overflow:hidden;padding-left: 1rem;" alt="walmart">
-        </div>
-        <h4 style="text-align: center"> Software Engineer II </h4>
-        <p  style="text-align: left; left-margin: 40px">
-            🚀 <b style=" color: #58a6ff;">Engineered Scalable, High-Performance Microservices:</b> Driving impactful solutions at Walmart using Java, Python, Kafka, and Spring Boot.
-            <br>
-💡 <b style=" color: #58a6ff;">Passionate about Innovation:</b> Leveraging technology to transform ideas into tangible results and improve lives.
-<br>
-💻 <b style=" color: #58a6ff;">Proficient in Agile Development:</b> Collaborating effectively within Agile teams to deliver customer-centric solutions.
-<br>
-📚 <b style=" color: #58a6ff;">Committed to Continuous Learning: </b>Staying ahead of the curve with a dedication to ongoing professional development.
-<br>
-🤝 <b style=" color: #58a6ff;">Ready to Build the Future:</b> Seeking opportunities to collaborate and create cutting-edge technology.
-        </p>
-        <div style="text-align: center" >
-            <img src="image/excel_walmart.png"style="width:200px;height:200px;border-radius:10%;overflow:hidden;padding: 1rem;" alt="excel_walmart">
-            <img src="image/bravo_walmart.png"style="width:200px;height:200px;border-radius:10%;overflow:hidden;padding: 1rem;" alt="bravo_walmart">
-        </div>
-      </div>
-     
-    
-    </div>
-   </section>
+                                <div class="blog-content">
+                                    
 
-    <!-- Certification Section -->
+                                    <h3 class="h3 blog-item-title"><a href="https://github.com/priyapatelsp/LinkedIn-Carousel-Generator">LinkedIn Caurausel Generator 🔗</a></h3>
+                                    <p class="blog-text">Build a tool to create LinkedIn PDF carousels
+                                      <br>  ✍️ <b>Content Input: </b>Easily add text &  images for up to 10 swipeable slides.
+                                      <br> 📄 <b>Content Input: </b> Generate a polished, swipable PDF.
+                                      <br> 🔗 <b>Interactive Links: </b>>Add clickable links within slides.
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
 
-   <section id="skills">
-    <h2>Certifications</h2>
-    <div class="skills-container">
-      <!-- Cert 1: AWS AI Practioner -->
-      <div class="skill">
+                        <li class="blog-post-item">
+                            <a href="#">
+                                <figure class="blog-banner-box">
+                                    <img src="image/traceroute.png" alt="Traceroute" loading="lazy">
+                                </figure>
 
-        <div class="skill-header">
-          <h3>AWS AI Practioner</h3>
-        </div>
-        <div>
-            <img src="image/aws_ai_practioner.png"style="width:170px;height:170px;border-radius:10%;overflow:hidden;" alt="Your Image">
-        </div>
-        <div>
-            🔗 Link :<a href="https://www.credly.com/badges/8bb8994f-945d-4ba9-b0ff-601909430669/public_url">  AWS AI Practioner</a>
-        </div>
-      </div>
+                                <div class="blog-content">
+                                    
+                                    <h3 class="h3 blog-item-title"><a href="https://github.com/priyapatelsp/Traceroute">Traceroute 🔗</a></h3>
+                                    <p class="blog-text"> Build your own Traceroute 
 
-      <!-- Cert 2: AWS Cloud Practioner  -->
-      <div class="skill">
-        <div class="skill-header">
-          <h3>AWS Cloud Practioner </h3>
-        </div>
-        <div>
-            <img src="image/aws_cp.png"style="width:170px;height:170px;border-radius:10%;overflow:hidden;" alt="Your Image">
-        </div>
-        <div>
-            🔗 Link :<a href="https://www.credly.com/badges/d0e533ee-8dde-4ddf-a192-f0ba54af0964/public_url">  AWS Cloud Practioner</a>
-        </div>
-      </div>
+                                      <br><b>🗺️ Route Tracing </b> Send packets to map the network path to a destination.
+                                      <br><b>📍 Hop Identification  </b> Display the IP addresses and hostnames of routers encountered along the route.
+                                        <br><b>⏱️ Latency Measurement </b> Measure and display the Round-Trip Time (RTT) for each hop.</p>
+                                </div>
+                            </a>
+                        </li>
 
-      <!-- Cert 3: Oracle JAVA -->
-      <div class="skill">
-        <div class="skill-header">
-          <h3>Oracle JAVA</h3>
-        </div>
-        <div>
-            <img src="image/java.webp"style="width:170px;height:170px;border-radius:10%;overflow:hidden;" alt="Your Image">
-        </div>
-        <div>
-            🔗 Link :<a href=" https://catalog-education.oracle.com/ords/certview/sharebadge?id=77D0A551A8E5356044DDA2527FDC878E5A76B186795D026582E99F857F08E141">  Oracle Certified Associate </a>
-        </div>
-      </div>
+                        <li class="blog-post-item">
+                            <a href="#">
+                                <figure class="blog-banner-box">
+                                    <img src="image/bot.png" alt="Bot " loading="lazy">
+                                </figure>
 
-    
-  </section>
+                                <div class="blog-content">
+                                   
+                                    <h3 class="h3 blog-item-title"><a href="https://github.com/priyapatelsp/Discord_bot">Discord Bot Creation 🔗</a></h3>
+                                    <p class="blog-text">
+                                      <b>🎮 Command Control </b>Add user-triggered commands.
+                                      <br><b>💬 User Response </b> Design interactive replies.
+                                      <br><b>⚙️ Task Automation </b> Automate welcome messages, etc.
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
 
-      <!-- Certification Section  End-->
+                        <li class="blog-post-item">
+                            <a href="#">
+                                <figure class="blog-banner-box">
+                                    <img src="image/url.png" alt="url shortner" loading="lazy">
+                                </figure>
 
-  <!-- Portfolio Section -->
-  <section id="skills">
-    <h2>Projects</h2>
-    <div class="skills-container">
-      <!-- Project 1: Career Buddy -->
-      <div class="skill">
-        <div class="skill-header">
-          <h3> 💻  Career Buddy</h3>
+                                <div class="blog-content">
+                                   
+                                    <h3 class="h3 blog-item-title"><a href="https://github.com/priyapatelsp/URL_Shortener">URL shortner 🔗</a></h3>
+                                    <p class="blog-text"> 
+                                      <b>🔗Shorten URLs :</b>  Generate unique, short links. <br>
+                                      <b>🤏Redirect Links:</b>Send short URLs to originals.<br>
+                               <b>🛠️API :</b>Create shortening/redirection endpoints.</p>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="blog-post-item">
+                            <a href="#">
+                                <figure class="blog-banner-box">
+                                    <img src="image/reddis.png" alt="Reddis server" loading="lazy">
+                                </figure>
+
+                                <div class="blog-content">
+                                    
+                                    <h3 class="h3 blog-item-title"><a href="https://github.com/priyapatelsp/Redis_Server">Reddis Server 🔗</a> </h3>
+                                    <p class="blog-text">
+                                      <b>🧠 In-Memory Store :</b> Build a key-value data store. <br>
+                                      <b>⌨️ Core Commands :</b>Implement `SET`, `GET`, `DEL` etc. <br>
+                                      <b> 📡 Network Connect : </b>Enable client-server via TCP.
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+            </article>
+
+            <article class="contact " data-page="contact">
+                <header>
+                    <h2 class="h2 article-title">Contact</h2>
+                </header>
+                <section class="contact-form">
+                    <h3 class="h3 form-title">Let's Connect</h3>
+
+                    <form action="#" class="form" data-form>
+                        <div class="input-wrapper">
+                            <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+                            <input type="email" name="email" class="form-input" placeholder="Email Address" required data-form-input>
+                        </div>
+
+                        <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input=""></textarea>
+
+                        <button class="form-btn" type="submit" disabled data-form-btn>
+                           
+                            <span>Send Message</span>
+                        </button>
+                    </form>
+                </section>
+            </article>
         </div>
-        <div class="skill-progress">
-          <div class="progress-bar" style="width: 100%"></div>
-        </div>
-        <ul style="margin-left:0">
-            <br>
-            <li><b>🔗 Github : </b><a href="https://github.com/priyapatelsp/Career_Buddy"> Career Buddy </a></li>
-            <br>
-            <!-- <li><b>Post : </b><a href="https://github.com/priyapatelsp/Career_Buddy"> Career Buddy </a></li>
-            <br> -->
-        </ul>
-      </div>
+    </main>
 
-      <!-- Project 2: Carousel Gen -->
-      <div class="skill">
-        <div class="skill-header">
-          <h3>✍️ Carousel Gen.</h3>
-        </div>
-        <div class="skill-progress">
-          <div class="progress-bar" style="width: 100%"></div>
-        </div>
-        <ul style="margin-left:0">
-            <br>
-            <li><b>🔗 Github : </b><a href="https://github.com/priyapatelsp/LinkedIn-Carousel-Generator"> LinkedIn Carousel Generator</a></li>
-            <br>
-            <!-- <li><b>Post : </b><a href="https://github.com/priyapatelsp/Career_Buddy"> Career Buddy </a></li>
-            <br> -->
-        </ul>
-      </div>
+    <script src="main.js"></script>
 
-      <!-- Project 3: Traceroute -->
-      <div class="skill">
-        <div class="skill-header">
-          <h3>🕸️ Traceroute</h3>
-        </div>
-        <div class="skill-progress">
-          <div class="progress-bar" style="width: 100%"></div>
-        </div>
-        <ul style="margin-left:0">
-            <br>
-            <li><b>🔗 Github : </b><a href="https://github.com/priyapatelsp/Traceroute"> Traceroute</a></li>
-            <br>
-            <!-- <li><b>Post : </b><a href="https://github.com/priyapatelsp/Career_Buddy"> Career Buddy </a></li>
-            <br> -->
-        </ul>
-      </div>
-
-      <!-- Project 4: Memcached -->
-      <div class="skill">
-        <div class="skill-header">
-          <h3>📖 Memcached</h3>
-        </div>
-        <div class="skill-progress">
-          <div class="progress-bar" style="width: 100%"></div>
-        </div>
-        <ul style="margin-left:0">
-            <br>
-            <li><b>🔗 Github : </b><a href="https://github.com/priyapatelsp/Memcached_Server"> Memcached Server</a></li>
-            <br>
-            <!-- <li><b>Post : </b><a href="https://github.com/priyapatelsp/Career_Buddy"> Career Buddy </a></li>
-            <br> -->
-        </ul>
-      </div>
-      
-  </section>
-
-  
-
-
-  <!-- Skills Section -->
-  <!-- <section id="skills">
-    <h2>Skills & Expertise</h2>
-    <div class="skills-container"> -->
-      <!-- Skill 1: HTML -->
-      <!-- <div class="skill">
-        <div class="skill-header">
-            <i class="fa fa-html5" style="font-size:36px" ></i>
-          <h3>HTML</h3>
-        </div>
-      </div> -->
-
-      <!-- Skill 2: CSS -->
-      <!-- <div class="skill">
-        <div class="skill-header">
-            <i class="fa fa-linkedin-square" style="font-size:36px"></i>
-          <h3>CSS</h3>
-        </div>
-      </div> -->
-
-      <!-- Skill 3: JavaScript -->
-      <!-- <div class="skill">
-        <div class="skill-header">
-            <i class="fa fa-linkedin-square" style="font-size:36px"></i>
-          <h3>JavaScript</h3>
-        </div>
-      </div> -->
-
-      <!-- Skill 4: React -->
-      <!-- <div class="skill">
-        <div class="skill-header">
-            <i class="fa fa-linkedin-square" style="font-size:36px"></i>
-          <h3>React</h3>
-        </div>
-      </div>
-    </div>
-  </section> -->
-
-  <!-- Footer -->
-  <footer>
-    <p>&copy; Priya Patel | <a href="#hero">Back to Top</a></p>
-  </footer>
-
-  <!-- Smooth Scroll Script -->
-  <script>
-    function scrollToPortfolio() {
-      document.querySelector('#portfolio').scrollIntoView({ behavior: 'smooth' });
-    }
-  </script>
-
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
