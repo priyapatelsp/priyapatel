@@ -951,7 +951,7 @@ article { display: none; }
     font-size: var(--fs6);
     font-weight: var(--fw300);
     line-height: 1.6;
-    text-align: justify;
+    text-align: left;
 }
 
 /*CONTACT*/
