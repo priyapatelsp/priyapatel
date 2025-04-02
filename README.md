@@ -2,7 +2,7 @@
 
 Welcome to my digital gallery! This portfolio isn't just a static display; it's an interactive canvas showcasing my journey as a Software Developer. Let's explore the art of code together.
 <br>
-**🔗 Website Link:** [Your Website URL Here]
+**🔗 Website Link:** [Portfolio website](https://priyapatelsp.github.io/priyapatel/)
 <br>
 
 ## 🎨 Your Interactive Journey:
